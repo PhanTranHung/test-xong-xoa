@@ -11,7 +11,7 @@ const adapterConfig = { mongoUri: 'mongodb+srv://root:Password1998@cluster0.vuqw
 
 const keystone = new Keystone({
   adapter: new Adapter(adapterConfig),
-  cookieSecret="25984981684"
+  cookieSecret:"agwrghfgahscufihwf46fd4e3ca7ddf3b4dfvqerqwefqweafqwfweffqwefeebf0eqwefwefa9db"
 });
 
 keystone.createList('Todo', {
